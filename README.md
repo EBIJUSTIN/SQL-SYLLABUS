@@ -5,52 +5,58 @@ SQL (Structured Query Language) is a standard language used to communicate with 
 
  # SQL is used to: 
  
-*Create databases and tables
+※Create databases and tables
 
-*Insert data
+※Insert data 
 
-*Retrieve data
+※Retrieve data
 
-*Update data
+※Update data
 
-*Delete data.
+※Delete data.
 
-Example:
+▶ Example:
 
 SELECT * FROM Employees;
 
 # DBMS
 DBMS (Database Management System) is software used to store, organize, manage, and retrieve data efficiently.
 
-Features:
+▶ Features:
 
-*Stores data
+⁂Stores data
 
-*Updates data
+⁂Updates data
 
-*Deletes data
+⁂Deletes data
 
-*Retrieves data
+⁂Retrieves data
 
-*Provides security.
+⁂Provides security.
 
-Examples:
+▶ Examples:
 
-*MySQL
+⫱ MySQL
 
-*Oracle
+⫱ Oracle
 
-*Microsoft SQL Server
+⫱ Microsoft SQL Server
 
-*PostgreSQL
+⫱ PostgreSQL
 
 # RDBMS
 RDBMS (Relational Database Management System) is a type of DBMS that stores data in the form of tables and establishes relationships between tables.
-Features:
-Data is stored in tables.
+
+▶ Features:
+
+⁕Data is stored in tables.
+
 Supports Primary Key and Foreign Key.
+
 Reduces data redundancy.
+
 Maintains data integrity.
+
 Example:
 Students Table:
 Student_ID	Name
