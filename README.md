@@ -1,73 +1,83 @@
 # SQL-SYLLABUS
 
- # SQL
+# Database Basics
+
+ ## SQL
 SQL (Structured Query Language) is a standard language used to communicate with databases.
 
  # SQL is used to: 
  
-※Create databases and tables
+       ✅ Create databases and tables
 
-※Insert data 
+       ✅ Insert data 
 
-※Retrieve data
+       ✅ Retrieve data
 
-※Update data
+       ✅Update data
 
-※Delete data.
+       ✅Delete data.
 
 ▶ Example:
 
-SELECT * FROM Employees;
-
+       SELECT * FROM Employees;
+#
 # DBMS
 DBMS (Database Management System) is software used to store, organize, manage, and retrieve data efficiently.
 
 ▶ Features:
 
-⁂Stores data
+      ✅ Stores data
 
-⁂Updates data
+     ✅ Updates data
 
-⁂Deletes data
+     ✅ Deletes data
 
-⁂Retrieves data
+     ✅ Retrieves data
 
-⁂Provides security.
+     ✅ Provides security.
 
 ▶ Examples:
 
-⫱ MySQL
+       ✅ MySQL
 
-⫱ Oracle
+       ✅ Oracle
 
-⫱ Microsoft SQL Server
+       ✅ Microsoft SQL Server
 
-⫱ PostgreSQL
-
+       ✅ PostgreSQL
+#
 # RDBMS
+
 RDBMS (Relational Database Management System) is a type of DBMS that stores data in the form of tables and establishes relationships between tables.
 
 ▶ Features:
 
-⁕Data is stored in tables.
+         ✅Data is stored in tables.
 
-Supports Primary Key and Foreign Key.
+         ✅Supports Primary Key and Foreign Key.
 
-Reduces data redundancy.
+         ✅Reduces data redundancy.
 
-Maintains data integrity.
+         ✅Maintains data integrity.
 
-Example:
-Students Table:
-Student_ID	Name
-101	        Rahul
-Courses Table
-Course_ID	Student_ID
-C01       	101
-Here, Student_ID is used to relate the two tables.
+▶Example:
+
+    * Students Table:
+    
+          Student_ID	    Name
+          
+           101	            Rahul
+           
+   *Courses Table
+   
+            Course_ID	   Student_ID
+            
+              C01       	101
+              
+* Here, Student_ID is used to relate the two tables.
 
 
-*SQL vs MySQL
+# SQL vs MySQL
     SQL                            	MySQL
 SQL is a language.        	MySQL is database software (RDBMS).
 Used to write queries.     	Executes SQL queries.
