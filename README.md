@@ -26,7 +26,7 @@ DBMS (Database Management System) is software used to store, organize, manage, a
 
 ▶ Features:
 
-      ✅ Stores data
+     ✅ Stores data
 
      ✅ Updates data
 
@@ -62,61 +62,118 @@ RDBMS (Relational Database Management System) is a type of DBMS that stores data
 
 ▶Example:
 
-    * Students Table:
+   * Students Table:
     
-          Student_ID	    Name
+          Student_ID	       Name
           
-           101	            Rahul
-           
-   *Courses Table
+            101	             Rahul
+            
+   * Courses Table
    
             Course_ID	   Student_ID
             
-              C01       	101
+              C01        	101
               
 * Here, Student_ID is used to relate the two tables.
 
-
+#
 # SQL vs MySQL
-    SQL                            	MySQL
-SQL is a language.        	MySQL is database software (RDBMS).
-Used to write queries.     	Executes SQL queries.
-Cannot store data.        	Stores data in databases.
-Standard query language.   	One of the most popular RDBMS.
 
-Easy to Remember:
-SQL = Language
-MySQL = Software
+   ## SQL    
+    
+        ✅SQL is a language.
+        
+        ✅Used to write queries.
+        
+        ✅Cannot store data.
+        
+        ✅Standard query language.   	
+ 
+  ## MySQL
+  
+       ✅MySQL is database software (RDBMS).
+       
+       ✅Executes SQL queries.
+       
+	      ✅Stores data in databases.
+       
+       ✅One of the most popular RDBMS.
 
-*Tables, Rows, Columns
-Example:
- Emp_ID	   Name	  Salary
- 101	     John	  30000
- 102    	 David  40000
-Table:
+
+▶ Easy to Remember:
+
+           SQL = Language 
+           
+           MySQL = Software
+#
+ # Tables, Rows, Columns
+ 
+▶Example:
+
+       Emp_ID	   Name	   Salary
+       
+        101	     John	    30000
+        
+        102    	 David    40000
+        
+## Table:
 A collection of related data.
 
-Example: Employees
-Row (Record)
-A single entry in a table.
-Example:
-101 | John | 30000
-Column (Field)
-A category of information.
-Example:
-Emp_ID
-Name
-Salary
+ ### Example:
+  
+          Employees 
+         
+## Row (Record)
+A single entry in a table.  
 
-Primary Key
-Foreign Key
-Constraints (NOT NULL, UNIQUE, CHECK, DEFAULT)
-#2. SQL Commands
-DDL (CREATE, ALTER, DROP, TRUNCATE)
-DML (INSERT, UPDATE, DELETE)
+### Example:
+
+     101 | John | 30000
+     
+## Column (Field)
+A category of information.
+
+### Example:
+
+        Emp_ID|Name|Salary
+#
+# Constraints : 
+   ## UNIQUE KEY , PRIMARY KEY , FOREIGN KEY , NOT NULL.
+
+## Primary Key:
+Primary Key is a column (or combination of columns) that uniquely identifies each row in a table.
+              
+#
+
+## Foreign Key
+A Foreign Key is a column that connects one table to another. It maintains the relationship between tables.
+#
+## Unique Key
+A UNIQUE Key ensures that all values in a column are different.
+#
+## NOT NULL
+The NOT NULL constraint ensures that a column cannot be empty.
+#
+
+# SQL Commands
+## DDL (DATA DEFINITION LANGUAGE )
+▶ Used to create and modify database objects.
+
+ ✅ CREATE: Creates a new database or table.
+ 
+ ✅ ALTER : Modifies an existing table.
+ 
+ ✅  DROP : Deletes a table permanently.
+ 
+ ✅ TRUNCATE : Removes all rows from a table but keeps the table structure.
+
+## DML (DATA MANIPULATION LANGUAGE)
+▶ Used to insert, update, and delete data.
+
+  ✅ INSERT
+, UPDATE, DELETE)
 DQL (SELECT)
-DCL (GRANT, REVOKE)
-TCL (COMMIT, ROLLBACK, SAVEPOINT)
+
 #3. Basic Queries
 SELECT
 WHERE
